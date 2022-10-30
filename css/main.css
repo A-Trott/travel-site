@@ -1,0 +1,43 @@
+.hero{
+background-color:var(--background-secondary);
+display:flex;
+justify-content: space-between;
+height:47.5rem;
+padding:6rem 9rem;
+}
+
+.hero__content{
+height:100%;
+max-width: 50%;
+
+
+
+}
+.hero__title{
+font-size: 3.55rem;
+font-weight:900;
+margin:4rem 0;
+}
+
+.hero__subtitle{
+font-size:1.4rem;
+
+margin:2rem 0;
+}
+
+
+.hero__button{
+    display:block;
+    max-width: fit-content;
+    padding:1rem 4rem;
+    background-color:var(--highlight);
+    border-radius: 15px;
+    font-size: 1.2rem;
+    color:var(--background-primary);
+} 
+
+.hero__image{
+    height:100%;
+    width:100%;
+
+}
