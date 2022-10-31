@@ -98,3 +98,44 @@ font-weight: 300;
 .header__menu-item--current{
     border-bottom: 4px solid var(--highlight);
 }
+
+/* Footer */
+
+.footer{
+background-color: var(--background-secondary);
+margin-top:3rem;
+padding:2.1rem;
+}
+.footer-section{
+    display:flex;
+    justify-content: space-between;
+    width:69%;
+    margin:0 auto;
+}
+.footer__column{
+
+}
+
+.footer__column-title{
+font-size:2.4rem;
+font-weight:bolder;
+margin: 2.2rem 0;
+}
+
+.footer__column-subtitle{
+color:var(--highlight);
+margin-bottom:1rem;
+}
+.footer__column-info{
+font-size:1.45rem;
+}
+.footer__sub-column{
+display:flex;
+gap:3rem;
+margin-top: 1rem;
+
+}
+.footer__icon{
+    height:2.5rem;
+    align-self:flex-end;
+}
