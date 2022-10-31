@@ -103,8 +103,8 @@ font-weight: 300;
 
 .footer{
 background-color: var(--background-secondary);
-margin-top:3rem;
-padding:2.1rem;
+
+padding:4.3rem 2.1rem;
 }
 .footer-section{
     display:flex;
@@ -119,7 +119,7 @@ padding:2.1rem;
 .footer__column-title{
 font-size:2.4rem;
 font-weight:bolder;
-margin: 2.2rem 0;
+margin-bottom: 2.2rem ;
 }
 
 .footer__column-subtitle{
