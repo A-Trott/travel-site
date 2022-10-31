@@ -1,0 +1,56 @@
+.destination-hero__title {
+    font-size: 2.3rem;
+    margin: 3rem;
+}
+
+.destination-hero--hawaii {
+    background-image: url(../assets/images/hawaii.jpg);
+}
+
+.destination-hero--iceland {
+    background-image: url(../assets/images/iceland.jpg);
+}
+
+.destination-hero--greece {
+    background-image: url(../assets/images/greece.jpg);
+}
+
+
+
+
+
+.schedule{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem auto;
+    
+    
+}
+
+.schedule__card {
+    height: 35.5rem;
+    width: 25.5rem;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+    border: 1px solid hsla(0, 0%, 0%, 0.2);
+    text-align: center;
+    padding:1.5rem;
+    
+}
+
+.schedule__title {
+    
+    margin-bottom: 2.4rem;
+    font-weight: bolder;
+    font-size: 1.8em;
+    border-bottom:3px solid black;
+    color:black;
+}
+.schedule__item{
+    padding: 1.1rem 0;
+    margin-bottom:1.5rem;
+    background-color: var(--background-secondary);
+    color:black;
+    font-size:1.8rem;
+}
