@@ -10,9 +10,8 @@ padding:6rem 9rem;
 height:100%;
 max-width: 50%;
 
-
-
 }
+
 .hero__title{
 font-size: 3.55rem;
 font-weight:900;
@@ -21,7 +20,6 @@ margin:4rem 0;
 
 .hero__subtitle{
 font-size:1.4rem;
-
 margin:2rem 0;
 }
 
@@ -39,5 +37,62 @@ margin:2rem 0;
 .hero__image{
     height:100%;
     width:100%;
+}
+
+
+.recomm{
+padding:1rem 9.5rem 2rem 9.5rem;
+
 
 }
+
+.recomm__title{
+font-size: 2.3rem;
+margin:3rem;
+}
+.recomm > ul {
+    width:80%;
+    display:flex;
+    justify-content: space-between;
+    margin:3rem auto;
+
+    
+}
+.recomm__card{
+position:relative;
+background-color: lightblue;
+height:37rem;
+width:25.5rem;
+border-radius: 5px;
+box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
+background-size: cover;
+background-repeat: no-repeat;
+border: 1px solid hsla(0, 0%, 0%, 0.2);
+
+}
+
+.recomm__card--hawaii{
+background-image: url(../assets/images/hawaii.jpg);
+
+}
+.recomm__card--iceland{
+    background-image: url(../assets/images/iceland.jpg);
+}
+.recomm__card--greece{
+    background-image: url(../assets/images/greece.jpg);
+}
+.recomm__card-link{
+    display:block;
+    position:relative;
+    height:100%;
+    width:100%;
+}
+.recomm__card-title{
+position:absolute;
+bottom:1rem;
+right: 2rem;
+color:var(--background-primary);
+font-weight: bolder;
+font-size: 2em;
+}
+

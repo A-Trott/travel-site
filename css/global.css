@@ -82,6 +82,7 @@ a:visited {
 .header__nav{
 
 }
+
 .header__menu{
     display:flex;
     gap: 1.4rem;
